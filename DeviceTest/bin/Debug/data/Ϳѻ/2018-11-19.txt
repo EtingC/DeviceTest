@@ -1,0 +1,4 @@
+唯一标识(MAC),名称,型号,modelId,版本状态,当前版本,SN,项目名称
+90FD9FFFFE20337F,鸿雁调光调色面板(zigbee),IHD1201GD-ZTT,HY0091,版本正常,20181019,,涂鸦
+90FD9FFFFE2033F4,鸿雁灯具(zigbee),鸿雁灯具(zigbee),HY1005,版本正常,20180914,,涂鸦
+90FD9FFFFE203416,鸿雁灯带(zigbee),HLRT10D-0121-ZTT,HY1004,版本正常,20180427,,涂鸦

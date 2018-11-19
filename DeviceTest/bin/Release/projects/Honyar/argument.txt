@@ -1,0 +1,1 @@
+{"deviceColor":2,"SN":"00000010","labelFilePathName":"C:\\Users\\hy041581\\Desktop\\Workspace\\HonYar\\PROJECTS\\44.DeviceTest\\DeviceTest\\DeviceTest\\bin\\Debug\\projects\\Honyar\\label.prn","name":"利尔达设备","model":"Lierda","deviceId":"00124B00129827A1","modelId":"LIERDA","secret":"","subDeviceType":0,"hardwareVersion":"","softwareVersion":"","mcuBinVersion":""}

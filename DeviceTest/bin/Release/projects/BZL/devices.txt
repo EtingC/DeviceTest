@@ -1,0 +1,190 @@
+{
+    "devices":[
+        {
+        "shortmodel": "00500c32,HY0030",
+        "deviceType": "3",
+        "deviceMode": "11",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005f0cf1,HY0036",
+        "deviceType": "3",
+        "deviceMode": "12",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": ""
+        },{
+        "shortmodel": "00500c33,HY0031",
+        "deviceType": "3",
+        "deviceMode": "13",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": ""
+        },{
+        "shortmodel": "005f0cf3,HY0037",
+        "deviceType": "3",
+        "deviceMode": "14",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00500c35,HY0032",
+        "deviceType": "3",
+        "deviceMode": "15",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005f0cf2,HY0038",
+        "deviceType": "3",
+        "deviceMode": "16",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "000a0c3c,HY0042",
+        "deviceType": "4",
+        "deviceMode": "17",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "000a0c55,HY0043",
+        "deviceType": "4",
+        "deviceMode": "18",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005f0c3b,HY0041",
+        "deviceType": "5",
+        "deviceMode": "19",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "000212c3,HY0080",
+        "deviceType": "10",
+        "deviceMode": "20",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005e0edb,HY0081",
+        "deviceType": "11",
+        "deviceMode": "21",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00280eda,HY0082",
+        "deviceType": "12",
+        "deviceMode": "22",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00010d0d",
+        "deviceType": "6",
+        "deviceMode": "23",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00330dd8,RH3002",
+        "deviceType": "6",
+        "deviceMode": "24",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "001a0e0e,RH3041",
+        "deviceType": "6",
+        "deviceMode": "25",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00021429,HY0090",
+        "deviceType": "9",
+        "deviceMode": "26",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00040c3a,HY0039",
+        "deviceType": "7",
+        "deviceMode": "27",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005f0d13,HY0040",
+        "deviceType": "7",
+        "deviceMode": "28",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "0001112b,RH8080",
+        "deviceType": "6",
+        "deviceMode": "29",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "",
+        "deviceType": "7",
+        "deviceMode": "30",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00090cd5,HY0044",
+        "deviceType": "3",
+        "deviceMode": "31",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005d0e11,RH3022",
+        "deviceType": "6",
+        "deviceMode": "32",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00120e0f,RH3070",
+        "deviceType": "6",
+        "deviceMode": "33",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "00670e10,RH3011",
+        "deviceType": "6",
+        "deviceMode": "34",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        },{
+        "shortmodel": "005c1375,HM0002",
+        "deviceType": "6",
+        "deviceMode": "35",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        }
+    ],
+    "other":[
+        {
+        "shortmodel": "00330dd8,RH3002",
+        "deviceType": "6",
+        "deviceMode": "36",
+        "deviceStyle": "0",
+        "deviceSupplier": "1",
+        "Sn": "0"
+        }
+    ]
+}

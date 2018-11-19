@@ -1,0 +1,81 @@
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2018-11-16 02:17:14
+IsTerminating : True
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 DeviceTest.ConfigDevice.FormDeviceSNDetail.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\ConfigDevice\FormDeviceSNDetail.cs:行号 39
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 DeviceTest.Manager.DeviceController.ProcessResponse(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 592
+   在 JK.Program.Pattern.SubjectObserver.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 129
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 JK.Channels.HttpUtils.Controller.NotifyResponseData() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 225
+   在 JK.Channels.HttpUtils.Controller.GetResponseByGet() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 172
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2018-11-16 02:21:14
+IsTerminating : True
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 DeviceTest.ConfigDevice.FormDeviceSNDetail.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\ConfigDevice\FormDeviceSNDetail.cs:行号 39
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 DeviceTest.Manager.DeviceController.ProcessResponse(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 592
+   在 JK.Program.Pattern.SubjectObserver.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 129
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 JK.Channels.HttpUtils.Controller.NotifyResponseData() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 225
+   在 JK.Channels.HttpUtils.Controller.GetResponseByGet() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 172
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2018-11-16 02:36:10
+IsTerminating : True
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 DeviceTest.ConfigDevice.FormDeviceSNDetail.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\ConfigDevice\FormDeviceSNDetail.cs:行号 39
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 DeviceTest.Manager.DeviceController.ProcessResponse(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 592
+   在 JK.Program.Pattern.SubjectObserver.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 129
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 JK.Channels.HttpUtils.Controller.NotifyResponseData() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 225
+   在 JK.Channels.HttpUtils.Controller.GetResponseByGet() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 172
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+-----------------------end----------------------------
+-----------------------begin--------------------------
+CurrentDomain_UnhandledException2018-11-19 10:58:14
+IsTerminating : True
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DeviceTest.Manager.DeviceController.UpdateToDeviceNodes() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 104
+   在 DeviceTest.Manager.DeviceController.ProcessHttpControllerResponseQueryProductNodes(String flag, Object result, String message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 276
+   在 DeviceTest.Manager.DeviceController.ProcessResponse(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Manager\DeviceController.cs:行号 578
+   在 JK.Program.Pattern.SubjectObserver.Update(Int32 notifyEvent, String flag, Object result, String message, Object sender) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 129
+   在 JK.Program.Pattern.Subject.NotifyEventHandler.Invoke(Int32 notifyEvent, String flag, Object result, String message, Object sender)
+   在 JK.Program.Pattern.Subject.Notify(Int32 notifyEvent, String flag, Object result, String Message) 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Libs\Observer.cs:行号 64
+   在 JK.Channels.HttpUtils.Controller.NotifyResponseData() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 225
+   在 JK.Channels.HttpUtils.Controller.GetResponseByGet() 位置 c:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\DeviceTest\DeviceTest\Channels\HttpUtils.cs:行号 172
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+-----------------------end----------------------------

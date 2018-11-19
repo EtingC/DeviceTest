@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B2F01E9-5173-43E7-956E-43FCB6047732}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DeviceTest</RootNamespace>
+    <AssemblyName>DeviceTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\hy041581\Desktop\Workspace\HonYar\PROJECTS\44.DeviceTest\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tool.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseUtils.cs" />
+    <Compile Include="Channels\BaseChannel.cs" />
+    <Compile Include="Channels\SerialChannel.cs" />
+    <Compile Include="Channels\TCPChannel.cs" />
+    <Compile Include="Channels\UDPChannel.cs" />
+    <Compile Include="Base\BaseDevice.cs" />
+    <Compile Include="ConfigDevice\FormDeviceSNDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigDevice\FormDeviceSNDetail.Designer.cs">
+      <DependentUpon>FormDeviceSNDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigDevice\FormSupportDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigDevice\FormSupportDevices.Designer.cs">
+      <DependentUpon>FormSupportDevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigForms\FormConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigForms\FormConfig.designer.cs">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigForms\FormDeviceControllerConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigForms\FormDeviceControllerConfig.Designer.cs">
+      <DependentUpon>FormDeviceControllerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigForms\FormPrintConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigForms\FormPrintConfig.Designer.cs">
+      <DependentUpon>FormPrintConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigForms\FormSystemConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigForms\FormSystemConfig.Designer.cs">
+      <DependentUpon>FormSystemConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigDevice\FormDeviceConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigDevice\FormDeviceConfig.Designer.cs">
+      <DependentUpon>FormDeviceConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Device.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GatewayTest\FormGatewayTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GatewayTest\FormGatewayTest.Designer.cs">
+      <DependentUpon>FormGatewayTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gateway\Gateway.cs" />
+    <Compile Include="Channels\HttpUtils.cs" />
+    <Compile Include="Gateway\GatewayController.cs" />
+    <Compile Include="Libs\UnicodeConverter.cs" />
+    <Compile Include="Manager\ProjectService.cs" />
+    <Compile Include="Manager\TestController.cs" />
+    <Compile Include="PictureResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PictureResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\IniFiles.cs" />
+    <Compile Include="Libs\Observer.cs" />
+    <Compile Include="Libs\Utils.cs" />
+    <Compile Include="Manager\DeviceController.cs" />
+    <Compile Include="Manager\LabelController.cs" />
+    <Compile Include="Manager\TestManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Projects\iLopProject.cs" />
+    <Compile Include="Projects\LierdaProject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterDevice\FormDeviceRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterDevice\FormDeviceRegister.Designer.cs">
+      <DependentUpon>FormDeviceRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterDevice\FormiLopTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterDevice\FormiLopTest.Designer.cs">
+      <DependentUpon>FormiLopTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormDevice.Designer.cs">
+      <DependentUpon>FormDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceBaseInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceBaseInfo.Designer.cs">
+      <DependentUpon>FormDeviceBaseInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceValues.Designer.cs">
+      <DependentUpon>FormDeviceValues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormDevicePropertys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormDevicePropertys.Designer.cs">
+      <DependentUpon>FormDevicePropertys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormDeviceTest.Designer.cs">
+      <DependentUpon>FormDeviceTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormImportDevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormImportDevice.Designer.cs">
+      <DependentUpon>FormImportDevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormLabelPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormLabelPreview.Designer.cs">
+      <DependentUpon>FormLabelPreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForms\FormTestStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForms\FormTestStatus.Designer.cs">
+      <DependentUpon>FormTestStatus.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConfigDevice\FormDeviceSNDetail.resx">
+      <DependentUpon>FormDeviceSNDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigDevice\FormSupportDevices.resx">
+      <DependentUpon>FormSupportDevices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForms\FormConfig.resx">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForms\FormDeviceControllerConfig.resx">
+      <DependentUpon>FormDeviceControllerConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForms\FormPrintConfig.resx">
+      <DependentUpon>FormPrintConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForms\FormSystemConfig.resx">
+      <DependentUpon>FormSystemConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigDevice\FormDeviceConfig.resx">
+      <DependentUpon>FormDeviceConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GatewayTest\FormGatewayTest.resx">
+      <DependentUpon>FormGatewayTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PictureResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegisterDevice\FormDeviceRegister.resx">
+      <DependentUpon>FormDeviceRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterDevice\FormiLopTest.resx">
+      <DependentUpon>FormiLopTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormDevice.resx">
+      <DependentUpon>FormDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormDeviceBaseInfo.resx">
+      <DependentUpon>FormDeviceBaseInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormDeviceValues.resx">
+      <DependentUpon>FormDeviceValues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormDevicePropertys.resx">
+      <DependentUpon>FormDevicePropertys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormDeviceTest.resx">
+      <DependentUpon>FormDeviceTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormImportDevice.resx">
+      <DependentUpon>FormImportDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormLabelPreview.resx">
+      <DependentUpon>FormLabelPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForms\FormTestStatus.resx">
+      <DependentUpon>FormTestStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Devices\Power\" />
+    <Folder Include="Devices\Sensor\" />
+    <Folder Include="Devices\Switch\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\query.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\fail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\manual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PictureResource\upgrade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_find.png" />
+    <None Include="Resources\redhat_internet.png" />
+    <None Include="Resources\auto.png" />
+    <None Include="Resources\dialog_error.png" />
+    <None Include="Resources\document_print.png" />
+    <None Include="Resources\document_print_preview.png" />
+    <None Include="Resources\emptytrash.png" />
+    <None Include="Resources\gnome_control_center.png" />
+    <None Include="Resources\gnome_help.png" />
+    <None Include="Resources\gnome_session.png" />
+    <None Include="Resources\gtk_add.png" />
+    <None Include="Resources\gtk_apply.png" />
+    <None Include="Resources\gtk_cancel.png" />
+    <None Include="Resources\gtk_media_play_ltr.png" />
+    <None Include="Resources\gtk_refresh.png" />
+    <None Include="Resources\locked.png" />
+    <None Include="Resources\view.png" />
+    <Content Include="tool.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
